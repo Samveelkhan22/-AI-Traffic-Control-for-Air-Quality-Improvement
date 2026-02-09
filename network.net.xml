@@ -1,0 +1,14 @@
+<net>
+    <nodes>
+        <node id="A" x="0" y="0" type="priority"/>
+        <node id="B" x="0" y="100" type="priority"/>
+        <node id="C" x="100" y="100" type="traffic_light"/>
+        <node id="D" x="100" y="0" type="priority"/>
+    </nodes>
+    <edges>
+        <edge id="AB" from="A" to="B"/>
+        <edge id="BC" from="B" to="C"/>
+        <edge id="CD" from="C" to="D"/>
+        <edge id="DA" from="D" to="A"/>
+    </edges>
+</net>
